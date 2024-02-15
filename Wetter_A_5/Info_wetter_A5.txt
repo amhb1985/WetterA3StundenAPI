@@ -12,3 +12,5 @@ Fehler beim herunterladen und ist :
 Bitte geben Sie den Namen der Station ein: Berlin
 Die Station-ID für 'Berlin' lautet '00400'.
 Fehler beim Herunterladen der Datei 5minutenwerte_nieder_00400_20220101.txt: 404 Not Found
+
+

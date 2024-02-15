@@ -7,3 +7,7 @@ Das Script ruft die Wetterdaten von der API ab und speichert sie in einer CSV-Da
 Das Script durchläuft die Wettervorhersagedaten für jeden Zeitpunkt in der API-Antwort. Es extrahiert relevante Informationen wie die Temperatur, den Niederschlag, die Bewölkung und die Windrichtung und schreibt diese in die CSV-Datei. Dabei werden nur zukünftige Wetterdaten ab dem aktuellen Zeitpunkt berücksichtigt.
 Nachdem das Script die Wetterdaten in der CSV-Datei gespeichert hat, kann es weiterverarbeitet werden, um beispielsweise Analysen oder Visualisierungen durchzuführen.
 Bitte beachten Sie, dass Sie Ihren eigenen API-Schlüssel von OpenWeatherMap verwenden müssen, um die API-Anfragen erfolgreich durchzuführen.
+
+
+
+Problem: kein 5 Minuten Dauerzeit  sondern 3 stunden
