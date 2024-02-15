@@ -62,3 +62,5 @@ def generiere_wetterdaten():
 generiere_wetterdaten()
 
 # Weitere Verarbeitung der Wetterdaten
+
+#Fehler beim Abrufen der Wetterdaten.

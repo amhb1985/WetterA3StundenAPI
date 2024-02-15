@@ -10,4 +10,4 @@ Bitte beachten Sie, dass Sie Ihren eigenen API-Schlüssel von OpenWeatherMap ver
 
 
 
-Problem: kein 5 Minuten Dauerzeit  sondern 3 stunden
+Problem: kein 5 Minuten Dauerzeit  sondern 3 stunden 
