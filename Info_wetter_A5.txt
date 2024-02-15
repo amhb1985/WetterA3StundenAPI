@@ -1,0 +1,14 @@
+Beschreibung:
+Das WetterA 5-min-Projekt ist ein Python-Script, das Daten von der Website des Deutschen Wetterdienstes (DWD) abruft. 
+Das Script verwendet die requests-Bibliothek, um Daten von der Website des DWD abzurufen. Es greift auf die URL "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/5_minutes/precipitation/historical/2022/5min_rr_Beschreibung_Stationen.txt" zu, um Informationen zu den Wetterstationen abzurufen.
+Der Benutzer wird aufgefordert, den Namen der Wetterstation einzugeben. Das Script durchsucht die heruntergeladenen Daten und sucht nach Übereinstimmungen mit dem eingegebenen Namen. Wenn eine Übereinstimmung gefunden wird, wird die Stations-ID für die Wetterstation angezeigt.
+Das Script lädt dann Wetterdaten für jeden Tag des Jahres 2022 herunter. Es generiert Dateinamen basierend auf der Stations-ID und dem Datum und verwendet die download_file-Funktion, um die Daten herunterzuladen. Wenn ein Fehler beim Herunterladen einer Datei auftritt, wird eine entsprechende Meldung ausgegeben.
+Bitte beachten Sie, dass das Script die BeautifulSoup-Bibliothek verwendet, um die HTML-Seite zu analysieren und die gewünschten Informationen zu extrahieren. Es speichert die heruntergeladenen Wetterdaten in separaten Dateien im Textformat.
+
+Problem : 
+
+Fehler beim herunterladen und ist : 
+/usr/local/bin/python3 "/Users/amir/PycharmProjects/Wetter C01/main.py"
+Bitte geben Sie den Namen der Station ein: Berlin
+Die Station-ID für 'Berlin' lautet '00400'.
+Fehler beim Herunterladen der Datei 5minutenwerte_nieder_00400_20220101.txt: 404 Not Found
