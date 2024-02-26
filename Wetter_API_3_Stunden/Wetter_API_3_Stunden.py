@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import requests
 
 # Setze hier deinen API-Schlüssel ein
-api_key = '8c46804659dc1c7f660fa34475490426'
+#api_key = '8c46804659dc1c7f660fa34475490426'
 stadt = 'Berlin,DE'
 
 
